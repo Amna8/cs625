@@ -4,15 +4,16 @@ public static void main(String[] args){
  String word = "bottels";
  while(waternum > 0)
 {
-   if(waternum==1)
-{ 
-  word="bottels";
-}
+ 
   System.out.println(waternum + " " + word + "of water on wall");
   System.out.println(waternum + " " + word + "of water");
   System.out.println("take one down");
   System.out.println("pass it around");
   waternum = waternum-1;
+    if(waternum==1)
+{ 
+  word="bottels";
+}
   if(waternum > 0)
 {  
    System.out.println(waternum + " " + word + "of water on wall");
