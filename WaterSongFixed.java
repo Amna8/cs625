@@ -12,7 +12,7 @@ public static void main(String[] args){
   waternum = waternum-1;
     if(waternum==1)
 { 
-  word="bottels";
+  word="bottel";
 }
   if(waternum > 0)
 {  
