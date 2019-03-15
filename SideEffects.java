@@ -1,5 +1,5 @@
-public class SideEffects{
-public static void main(String args[]) {
+class SideEffects{
+public static void main(String[] args) {
 int i;
 
 i=0;
