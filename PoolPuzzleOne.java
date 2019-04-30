@@ -1,25 +1,30 @@
-class PoolPuzzleOne{
-public static void main(String args[]){
- int x = 0;
-while(x < 4) {
-System.out.print("a");
-if(x < 1){
-System.out.print(" ");
+public class PoolPuzzleOne {
+    public static void main(String[] args) {
+        int x=0;
+      while(x<1){
+	System.out.print("a ");
+	System.out.println("noise");
+	if(x<1){
+	System.out.println("annoys");
+
+	}
+	
+	if(x>3){
+	System.out.println("noys");
+	x=x-1;
+	}
+	if(x==1){
+	System.out.println("oise");
+
+	}
+	if(x<4){
+	System.out.print("an ");
+	System.out.println("oydter");
+	}
+	System.out.println(" ");
+	x=x+2;
+
+	}
+	}
 }
-System.out.print("n");
-if(x > 1){
-System.out.print("oyster");
-x = x+2;
-}
-if(x==1) {
-System.out.print("noys");
-}
-if(x<1)
-{
-System.out.print("oise");
-}
-System.out.println(" ");
-x= x+1;
-}
-}
-}
+    
